@@ -73,7 +73,32 @@ The model correctly classified a randomly selected meningioma MRI scan during te
 
 ### How to Run
 
-**My recommendation for running this code is to use a Kaggle notebook since codes that load data are compatible with Kaggle directory. For train and evaluate codes, you can simply copy them in a cell and run them easily.**
+**My recommendation for running this code is to use a Kaggle notebook since codes that load data are compatible with Kaggle directory. For train and evaluate codes, you can simply copy them in a cell and run them easily. Please note that you need to delete these two lines to avoid errors:
+from train import train_one_epoch
+from evaluate import evaluate_model**
+
+1. **Install Requirements**:
+   ```bash
+   pip install -r requirements.txt
+   ```
+
+2. **Train the Model**:
+   Execute the training pipeline:
+   ```bash
+   python train.py
+   ```
+
+3. **Evaluate the Model**:
+   Assess model performance:
+   ```bash
+   python evaluate.py
+   ```
+
+4. **Perform Inference**:
+   Use the trained model to classify new MRI scans:
+   ```bash
+   python main.py
+   ```
 
 
 ### Additional Setup for Grad-CAM Integration
