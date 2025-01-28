@@ -72,30 +72,9 @@ The model correctly classified a randomly selected meningioma MRI scan during te
 ## Deployment
 
 ### How to Run
+
 **My recommendation for running this code is to use a Kaggle notebook since codes that load data are compatible with Kaggle directory. For train and evaluate codes, you can simply copy them in a cell and run them easily.**
 
-1. **Install Requirements**:
-   ```bash
-   pip install -r requirements.txt
-   ```
-
-2. **Train the Model**:
-   Execute the training pipeline:
-   ```bash
-   python train.py
-   ```
-
-3. **Evaluate the Model**:
-   Assess model performance:
-   ```bash
-   python evaluate.py
-   ```
-
-4. **Perform Inference**:
-   Use the trained model to classify new MRI scans:
-   ```bash
-   python main.py
-   ```
 
 ### Additional Setup for Grad-CAM Integration
 If you wish to use Grad-CAM to visualize model predictions and enhance interpretability, set up the required repository and dependencies with the following commands:
