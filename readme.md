@@ -12,7 +12,7 @@ This project presents a deep learning-based solution for classifying brain tumor
 
 ## Dataset Overview
 
-The dataset used in this project is sourced from [Masoud Nickparvar’s Brain Tumor MRI Dataset](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset). This dataset is well-curated and contains high-quality MRI images, divided into training and testing subsets:
+The dataset used in this project is sourced from [Masoud Nickparvar’s Brain Tumor MRI Dataset](https://www.kaggle.com/datasets/masoudnickparvar/brain-tumor-mri-dataset) in Kaggle. This dataset is well-curated and contains high-quality MRI images, divided into training and testing subsets:
 
 - **Training Dataset**: Contains 80% of the images, used to train the model.
 - **Testing Dataset**: Consists of 20% of the images, used to evaluate performance.
@@ -72,6 +72,8 @@ The model correctly classified a randomly selected meningioma MRI scan during te
 ## Deployment
 
 ### How to Run
+**My recommendation for running this code is to use a Kaggle notebook since codes that load data are compatible with Kaggle directory. For train and evaluate codes, you can simply copy them in a cell and run them easily.**
+
 1. **Install Requirements**:
    ```bash
    pip install -r requirements.txt
