@@ -61,7 +61,11 @@ The model's high accuracy and robustness underline its potential for clinical ap
 - **Support Early Detection**: Improve patient outcomes by enabling timely treatment decisions.
 
 ### Real-World Example
-The model correctly classified a randomly selected meningioma MRI scan during testing, showcasing its practical utility and robustness.
+The model correctly classified a randomly selected meningioma MRI scan during testing, showcasing its practical utility and robustness. Here are results:
+![Meningioma example tumor](https://github.com/fajan-py/Brain-Tumor-Classification-Using-Deep-Learning-and-Grad-Cam-explainability/blob/main/meningioma.jpg)
+
+![Gradcam photo](https://github.com/fajan-py/Brain-Tumor-Classification-Using-Deep-Learning-and-Grad-Cam-explainability/blob/main/meningioma%20heatmap.png)
+
 
 ---
 
@@ -138,11 +142,5 @@ The model weights are stored in `efficientnet_b0_on_nickparvar_20epochs_braintum
 
 This deep learning-based solution sets a high standard for automated brain tumor classification, achieving near-perfect accuracy. Its clinical relevance, robustness, and ease of integration into diagnostic workflows position it as a valuable tool in modern radiology.
 
-<img src='(https://github.com/fajan-py/Brain-Tumor-Classification-Using-Deep-Learning-and-Grad-Cam-explainability/blob/main/meningioma.jpg)' alt='Random photo of meningioma' width='500'/>
-
-
-
-
-<img src="(https://github.com/fajan-py/Brain-Tumor-Classification-Using-Deep-Learning-and-Grad-Cam-explainability/blob/main/meningioma%20heatmap.png)" alt="Heatmap Visualization" width="500"/>
 
 
