@@ -73,9 +73,12 @@ The model correctly classified a randomly selected meningioma MRI scan during te
 
 ### How to Run
 
-**My recommendation for running this code is to use a Kaggle notebook since codes that load data are compatible with Kaggle directory. For train and evaluate codes, you can simply copy them in a cell and run them easily. Please note that you need to delete these two lines to avoid errors:
+**My recommendation for running this code is to use a Kaggle notebook since codes that load data are compatible with Kaggle directory. For train and evaluate codes, you can simply copy them in a cell and run them easily. Please note that you need to delete these two lines to avoid errors:**
+
+```
 from train import train_one_epoch
-from evaluate import evaluate_model**
+from evaluate import evaluate_model
+```
 
 1. **Install Requirements**:
    ```bash
