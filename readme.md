@@ -62,7 +62,7 @@ The model's high accuracy and robustness underline its potential for clinical ap
 
 ### Real-World Example
 The model correctly classified a randomly selected meningioma MRI scan during testing, showcasing its practical utility and robustness. Here are results:
-![Meningioma example tumor](https://github.com/fajan-py/Brain-Tumor-Classification-Using-Deep-Learning-and-Grad-Cam-explainability/blob/main/meningioma.jpg)
+![Meningioma example tumor](https://github.com/fajan-py/Brain-Tumor-Classification-Using-Deep-Learning-and-Grad-Cam-explainability/blob/main/mri-meningioma.jpg)
 
 ![Gradcam photo](https://github.com/fajan-py/Brain-Tumor-Classification-Using-Deep-Learning-and-Grad-Cam-explainability/blob/main/meningioma%20heatmap.png)
 Another example for glioma:
